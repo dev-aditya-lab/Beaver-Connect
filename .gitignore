@@ -1,3 +1,16 @@
+# ── Beaver Connect — project-specific ────────────────────────────────────────
+# temp/ holds runtime sketch/build artefacts — never commit them
+temp/*
+!temp/.gitkeep
+
+# logs/ are generated at runtime
+logs/*
+!logs/.gitkeep
+
+# arduino-cli platform data is downloaded at first run (~500 MB)
+toolchains/arduino-cli-data/
+
+# ── Standard Python ───────────────────────────────────────────────────────────
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
